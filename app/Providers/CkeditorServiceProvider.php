@@ -12,8 +12,8 @@ class CkeditorServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $basePath = base_path('vendor/ckeditor/release');
-        $publicPath = 'vendor/ckeditor/ckeditor';
+        $basePath = base_path('vendor/ckeditor/ckeditor');
+        $publicPath = 'vendor/ckeditor/release';
 
         $this->publishes(
             [
