@@ -26,8 +26,8 @@
         "ckeditor/ckeditor": "^4.6"
     },
     "autoload": {
-		"psr-4": {
-			"Xetaravel\\Ckeditor\\": "app/"
-		}
+        "psr-4": {
+            "Xetaravel\\Ckeditor\\": "app/"
+        }
 	}
 }
