@@ -20,10 +20,10 @@
 >
 > ## Usage
 > ```
-><script src="/vendor/ckeditor/release/ckeditor.js"></script>
->    <script>
->        CKEDITOR.replace('name-go-here');
->    </script>
+> <script src="/vendor/ckeditor/release/ckeditor.js"></script>
+> <script>
+>     CKEDITOR.replace('name-go-here');
+> </script>
 > ```
 >
 > ## Update
@@ -35,4 +35,4 @@
 > ```
 > php artisan vendor:publish --tag=ckeditor
 > ```
-> **Note** : Do not put any custom configuration files in the `public/vendor/release` directory. Instead put them in the `public/vendor` directory or somewhere else.
+> **Note** : Do not put any custom configuration files in the `public/vendor/release` directory. Instead put them in the `public/vendor` directory or somewhere else and attach them to the `CKEDITOR` instance.
