@@ -3,7 +3,7 @@ namespace Xetaravel\Ckeditor\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class CkeditorServiceProviders extends ServiceProvider
+class CkeditorServiceProvider extends ServiceProvider
 {
     /**
      * Publish the CKEditor to the public directory.
