@@ -1,0 +1,33 @@
+{
+    "name": "xetaio/xetaravel-ckeditor",
+    "description": "A wrapper to use CKEditor with Laravel.",
+    "keywords": [
+        "Xetaravel",
+        "laravel",
+        "ckeditor"
+    ],
+    "homepage": "https://github.com/XetaIO/Xetaravel-CKEditor",
+    "support": {
+        "source": "https://github.com/XetaIO/Xetaravel-CKEditor",
+        "issues": "https://github.com/XetaIO/Xetaravel-CKEditor/issues"
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xety",
+            "email": "emeric@xeta.io",
+            "homepage": "https://github.com/Xety"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "~5.0",
+        "ckeditor/ckeditor": "^4.6"
+    },
+    "autoload": {
+		"psr-4": {
+			"Xetaravel\\Ckeditor\\": "app/"
+		}
+	},
+}
